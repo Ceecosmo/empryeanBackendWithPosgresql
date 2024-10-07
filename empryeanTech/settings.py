@@ -30,7 +30,7 @@ DEBUG = True
 # DEBUG = config("DEBUG", cast=bool)
 #  AGE = config("AGE", cast=int)
 
-ALLOWED_HOSTS = ["127.0.0.1:8000"]
+ALLOWED_HOSTS = ["127.0.0.1,primeafricatechnologiess.onrender.com"]
 
 
 # Application definition
