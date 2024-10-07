@@ -205,14 +205,14 @@
 
 
         if (selectOption) {
-            // alert(`Course price : ${selectOption.split(' - ')[1]} `);
+            // alert(`Course price: ${selectOption.split(' - ')[1]} `);
 
-            amount.innerText = `Selected course price : ${selectOption.split(' - ')[1]}
+            amount.innerText = `Actual course price selected: ${selectOption.split(' - ')[1]}
    Please enter selected course price below`;
 
             //             alert("Course price: " + String.fromCharCode(8358)+ `${selectOption.split(' - ')[1]} `);
 
-            //             amount.innerText = "Selected course price : "  
+            //             amount.innerText = "Selected course price: "  
             //             + String.fromCharCode(8358)+ `${selectOption.split(' - ')[1]}
             //    Please enter selected course price below`;
 
@@ -241,7 +241,7 @@
             alert("Good! Full course price completed. Press OK to continue");
         }
         if (selectOption.split(' - ')[1] != pay) {
-            alert("Sorry, you did not enter the actual course price, please select your course first and complete all payment to procceed..!");
+            alert("Sorry, you did not enter the actual course price, please select your course first and complete full payment to procceed..!");
             window.location.reload();
 
         }
