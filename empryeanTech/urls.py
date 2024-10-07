@@ -19,7 +19,7 @@ from django.contrib import admin
 from django.urls import path, include
 # from . import views
 
-admin.site.site_header="Welcome to Prime Africa Technologies's Admin Dashboard"
+admin.site.site_header="Welcome to Prime Africa Technologies's admin dashboard"
 
 
 urlpatterns = [
